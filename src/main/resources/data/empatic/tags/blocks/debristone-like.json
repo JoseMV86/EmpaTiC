@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "empatic:debristone",
+    "empatic:cut_debristone",
+    "empatic:chiseled_debristone",
+    "empatic:smooth_debristone"
+  ]
+}

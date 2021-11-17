@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "name": "empatic:forestenergy",
+      "level": 1
+    },
+    {
+      "name": "empatic:forestspeed",
+      "level": 1
+    }
+  ]
+}

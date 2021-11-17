@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:elementium",
+  "temperature": 925,
+  "result": {
+    "fluid": "empatic:molten_elementium",
+    "amount": 144
+  }
+}

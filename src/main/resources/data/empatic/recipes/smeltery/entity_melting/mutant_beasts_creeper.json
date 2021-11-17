@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "mutantbeasts:creeper_minion",
+      "mutantbeasts:mutant_creeper"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:molten_glass",
+    "amount": 50
+  },
+  "damage": 2
+}

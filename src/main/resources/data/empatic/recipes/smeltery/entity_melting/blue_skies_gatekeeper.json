@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "blue_skies:alchemist",
+      "blue_skies:summoner",
+      "blue_skies:gatekeeper"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:molten_emerald",
+    "amount": 24
+  },
+  "damage": 5
+}

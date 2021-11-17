@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "blue_skies:venom_spider",
+      "blue_skies:nested_spider",
+      "blue_skies:nyctofly",
+      "blue_skies:emberback",
+      "blue_skies:arachnarch",
+      "blue_skies:infested_swarmer"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:venom",
+    "amount": 25
+  },
+  "damage": 2
+}

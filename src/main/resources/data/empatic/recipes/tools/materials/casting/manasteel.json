@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "empatic:molten_manasteel",
+    "amount": 144
+  },
+  "temperature": 725,
+  "output": "empatic:manasteel"
+}

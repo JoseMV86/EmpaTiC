@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "twilightforest:snow_guardian",
+      "twilightforest:snow_queen"
+    ]
+  },
+  "result": {
+    "fluid": "minecraft:water",
+    "amount": 100
+  },
+  "damage": 2
+}

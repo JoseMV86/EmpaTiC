@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:milkonstantan",
+  "temperature": 875,
+  "result": {
+    "fluid": "empatic:molten_milkonstantan",
+    "amount": 144
+  }
+}

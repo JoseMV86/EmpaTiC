@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/ironwood"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "empatic:ironwood",
+  "leftover": {
+    "item": "forge:ingots/ironwood"
+  }
+}

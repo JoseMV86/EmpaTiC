@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:ventium",
+  "temperature": 800,
+  "result": {
+    "fluid": "empatic:molten_ventium",
+    "amount": 144
+  }
+}

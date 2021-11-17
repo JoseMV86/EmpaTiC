@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_copper",
+      "amount": 288
+    },
+    {
+      "tag": "tconstruct:molten_quartz",
+      "amount": 288
+    },
+    {
+      "tag": "forge:milk",
+      "amount": 500
+    }
+  ],
+  "result": {
+    "fluid": "empatic:molten_milkonstantan",
+    "amount": 432
+  },
+  "temperature": 875
+}

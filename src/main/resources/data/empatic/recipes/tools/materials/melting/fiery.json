@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:fiery",
+  "temperature": 1325,
+  "result": {
+    "fluid": "empatic:molten_fiery",
+    "amount": 144
+  }
+}

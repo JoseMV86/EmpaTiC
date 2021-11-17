@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "twilightforest:lich",
+      "twilightforest:skeleton_druid"
+    ]
+  },
+  "result": {
+    "fluid": "minecraft:milk",
+    "amount": 100
+  },
+  "damage": 2
+}

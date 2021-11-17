@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "twilightforest",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/knightmetal"
+  },
+  "result": {
+    "fluid": "empatic:molten_knightmetal",
+    "amount": 1296
+  },
+  "temperature": 845,
+  "time": 200,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

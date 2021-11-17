@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "empatic:molten_ironwood",
+    "amount": 144
+  },
+  "temperature": 720,
+  "output": "empatic:ironwood"
+}

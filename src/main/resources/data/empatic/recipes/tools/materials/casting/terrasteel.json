@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "empatic:molten_terrasteel",
+    "amount": 144
+  },
+  "temperature": 1250,
+  "output": "empatic:terrasteel"
+}

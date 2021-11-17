@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "blue_skies:crogre",
+      "blue_skies:spewter",
+      "blue_skies:jelly_drifter",
+      "blue_skies:shrumpty"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:earth_slime",
+    "amount": 25
+  },
+  "damage": 2
+}

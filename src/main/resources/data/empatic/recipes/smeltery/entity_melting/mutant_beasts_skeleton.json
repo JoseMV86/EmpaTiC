@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "mutantbeasts:mutant_skeleton"
+    ]
+  },
+  "result": {
+    "fluid": "minecraft:milk", //it does already do this natively because of its tag,
+    "amount": 100 //but just in case a later version removes it
+  },
+  "damage": 2
+}

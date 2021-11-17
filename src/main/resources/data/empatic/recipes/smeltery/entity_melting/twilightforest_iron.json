@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "twilightforest:tower_golem",
+      "twilightforest:tower_termite"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:molten_iron",
+    "amount": 16
+  },
+  "damage": 2
+}

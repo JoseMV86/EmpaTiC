@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "blue_skies:artificial_golem",
+      "blue_skies:stonelet",
+      "blue_skies:starlit_crusher"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:seared_stone",
+    "amount": 16
+  },
+  "damage": 2
+}

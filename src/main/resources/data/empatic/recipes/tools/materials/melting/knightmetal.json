@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:knightmetal",
+  "temperature": 845,
+  "result": {
+    "fluid": "empatic:molten_knightmetal",
+    "amount": 144
+  }
+}

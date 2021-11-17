@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "empatic:molten_falsite",
+    "amount": 144
+  },
+  "temperature": 875,
+  "output": "empatic:falsite"
+}

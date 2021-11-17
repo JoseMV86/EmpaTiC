@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:steeleaf",
+  "temperature": 825,
+  "result": {
+    "fluid": "empatic:molten_steeleaf",
+    "amount": 144
+  }
+}

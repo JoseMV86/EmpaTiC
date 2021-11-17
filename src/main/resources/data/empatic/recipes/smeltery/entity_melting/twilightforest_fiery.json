@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "twilightforest:hydra",
+      "twilightforest:ur_ghast"
+    ]
+  },
+  "result": {
+    "fluid": "empatic:fiery_essence",
+    "amount": 10
+  },
+  "damage": 2
+}

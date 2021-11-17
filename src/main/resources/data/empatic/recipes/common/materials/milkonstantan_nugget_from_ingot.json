@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "empatic:milkonstantan_nugget",
+  "ingredients": [
+    {
+      "item": "empatic:milkonstantan_ingot"
+    }
+  ],
+  "result": {
+    "item": "empatic:milkonstantan_nugget",
+    "count": 9
+  }
+}

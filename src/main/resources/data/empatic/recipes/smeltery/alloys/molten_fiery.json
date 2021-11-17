@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "modid": "twilightforest",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "empatic:fiery_essence",
+      "amount": 100
+    },
+    {
+      "name": "tconstruct:molten_iron",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "empatic:molten_fiery",
+    "amount": 144
+  },
+  "temperature": 1325
+}

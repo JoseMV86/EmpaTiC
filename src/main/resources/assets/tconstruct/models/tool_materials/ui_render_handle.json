@@ -1,0 +1,9 @@
+{
+  "texture": "empatic:wood",
+  "fallbacks": [
+    "wood",
+    "stick"
+  ],
+  "color": "745F38",
+  "luminosity": 0
+}

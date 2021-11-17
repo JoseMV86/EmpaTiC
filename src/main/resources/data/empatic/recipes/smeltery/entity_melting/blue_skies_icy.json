@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "blue_skies:crynocerous",
+      "blue_skies:crystal_camel",
+      "blue_skies:armored_frost_spirit",
+      "blue_skies:frost_spirit",
+      "blue_skies:diophyde_prowler",
+      "blue_skies:polargeist"
+    ]
+  },
+  "result": {
+    "fluid": "minecraft:water",
+    "amount": 100
+  },
+  "damage": 2
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "twilightforest:slime_beetle"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:earth_slime",
+    "amount": 25
+  },
+  "damage": 2
+}

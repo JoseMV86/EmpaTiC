@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "twilightforest:death_tome",
+      "twilightforest:wraith"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:liquid_soul",
+    "amount": 50
+  },
+  "damage": 2
+}

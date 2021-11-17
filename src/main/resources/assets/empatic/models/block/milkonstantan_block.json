@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "empatic:block/milkonstantan_block_1",
+    "down": "empatic:block/milkonstantan_block_3",
+    "south": "empatic:block/milkonstantan_block_2",
+    "west": "empatic:block/milkonstantan_block_4",
+    "north": "empatic:block/milkonstantan_block_3",
+    "east": "empatic:block/milkonstantan_block_1",
+    "particle": "empatic:block/milkonstantan_block_1"
+  }
+}

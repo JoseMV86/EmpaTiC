@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "empatic:block/debristone_top",
+    "bottom": "empatic:block/debristone_bottom",
+    "side": "empatic:block/debristone"
+  }
+}

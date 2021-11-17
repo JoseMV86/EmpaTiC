@@ -1,0 +1,27 @@
+{
+  "condition": {
+    "values": [
+      {
+        "modid": "blue_skies",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "blue_skies:bug_guts"
+  },
+  "result": {
+    "fluid": "tconstruct:venom",
+    "amount": 5
+  },
+  "temperature": 500,
+  "time": 25,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/milkonstantan"
+  },
+  "result": {
+    "fluid": "empatic:molten_milkonstantan",
+    "amount": 1296
+  },
+  "temperature": 875,
+  "time": 200,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

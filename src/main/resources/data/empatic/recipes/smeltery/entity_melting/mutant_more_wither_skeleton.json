@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "mutantmore:mutant_wither_skeleton"
+    ]
+  },
+  "result": {
+    "fluid": "minecraft:milk",
+    "amount": 100
+  },
+  "damage": 2
+}

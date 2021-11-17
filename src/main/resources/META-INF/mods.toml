@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[36,)" 
+license="MIT License"
+
+[[mods]]
+modId="empatic" 
+version="0.1"
+displayName="EmpaTiC"
+authors="Jose_MV86 (coding), Hamster_Man_ (textures)"
+#credits="Slime Knights (Tinkers' Construct), RCXCrafter (Materialis), ianm1647 (Tinkers Better Compat)"
+description="Tinkers addon focused on both compatibility and brand new materials. \n\nCredits: Slime Knights (Tinkers' Construct), RCXCrafter (Materialis), ianm1647 (Tinkers Better Compat)"
+
+
+[[dependencies.empatic]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.empatic]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.empatic]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.0.2.84,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.empatic]]
+    modId="botania"
+    mandatory=false
+    versionRange="[1.16.5-420,)"
+    ordering="NONE"
+    side="BOTH"

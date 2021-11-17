@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material_fluid",
+  "input": "empatic:sandstone",
+  "fluid": [
+    {
+      "tag": "tconstruct:molten_debris",
+      "amount": 48
+    }
+  ],
+  "temperature": 1415,
+  "output": "empatic:mdebristone"
+}

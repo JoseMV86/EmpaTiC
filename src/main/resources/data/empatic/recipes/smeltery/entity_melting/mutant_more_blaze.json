@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "mutantmore:rodling",
+      "mutantmore:mutant_blaze"
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:blazing_blood",
+    "amount": 20
+  },
+  "damage": 2
+}

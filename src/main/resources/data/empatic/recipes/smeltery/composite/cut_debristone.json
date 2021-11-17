@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "minecraft:cut_sandstone"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:molten_debris",
+    "amount": 48
+  },
+  "result": "empatic:cut_debristone",
+  "cooling_time": 80
+}

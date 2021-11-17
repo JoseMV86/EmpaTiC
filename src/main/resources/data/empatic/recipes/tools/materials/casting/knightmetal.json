@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "empatic:molten_knightmetal",
+    "amount": 144
+  },
+  "temperature": 845,
+  "output": "empatic:knightmetal"
+}
