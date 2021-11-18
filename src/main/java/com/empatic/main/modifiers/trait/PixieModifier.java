@@ -32,7 +32,7 @@ public class PixieModifier extends Modifier {
 					PlayerEntity player = (PlayerEntity) context.getAttacker();
 					EntityPixie pixie = new EntityPixie(player.world);
 					pixie.setPosition(player.getPosX(), player.getPosY() + 2, player.getPosZ());
-					float dmg = 1.25f + ((level-1) * 1.25f);
+					float dmg = 3f * level;
 					pixie.setProps(context.getLivingTarget(), player, 0, dmg);
 					pixie.onInitialSpawn((ServerWorld) player.world, player.world.getDifficultyForLocation(pixie.getPosition()),
 							SpawnReason.EVENT, null, null);
