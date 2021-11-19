@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/forgotten_metal"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "empatic:forgotten",
+  "leftover": {
+    "tag": "forge:ingots/forgotten_metal"
+  }
+}

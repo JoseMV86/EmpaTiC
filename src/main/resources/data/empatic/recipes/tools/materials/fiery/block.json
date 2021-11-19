@@ -7,6 +7,6 @@
   "needed": 1,
   "material": "empatic:fiery",
   "leftover": {
-    "item": "forge:ingots/fiery"
+    "tag": "forge:ingots/fiery"
   }
 }

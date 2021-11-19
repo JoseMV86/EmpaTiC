@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material_fluid",
+  "input": "empatic:cloggrum",
+  "fluid": [
+    {
+      "tag": "empatic:molten_forgotten",
+      "amount": 144
+    }
+  ],
+  "temperature": 1465,
+  "output": "empatic:forgotten"
+}

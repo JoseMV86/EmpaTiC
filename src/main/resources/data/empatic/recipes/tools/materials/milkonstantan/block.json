@@ -7,6 +7,6 @@
   "needed": 1,
   "material": "empatic:milkonstantan",
   "leftover": {
-    "item": "forge:ingots/milkonstantan"
+    "tag": "forge:ingots/milkonstantan"
   }
 }

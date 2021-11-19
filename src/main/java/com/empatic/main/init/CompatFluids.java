@@ -92,6 +92,27 @@ public class CompatFluids {
             () -> new ForgeFlowingFluid.Source(makeFieryEssenceProperties()));
     public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_FIERYESSENCE = FLUIDS.register("flowing_fiery_essence",
             () -> new ForgeFlowingFluid.Flowing(makeFieryEssenceProperties()));
+
+    //twilight forest
+    public static final RegistryObject<ForgeFlowingFluid.Source> CLOGGRUM = FLUIDS.register("molten_cloggrum",
+            () -> new ForgeFlowingFluid.Source(makeMoltenCloggrumProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_CLOGGRUM = FLUIDS.register("flowing_molten_cloggrum",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenCloggrumProperties()));
+
+    public static final RegistryObject<ForgeFlowingFluid.Source> UTHERIUM = FLUIDS.register("molten_utherium",
+            () -> new ForgeFlowingFluid.Source(makeMoltenUtheriumProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_UTHERIUM = FLUIDS.register("flowing_molten_utherium",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenUtheriumProperties()));
+
+    public static final RegistryObject<ForgeFlowingFluid.Source> FROSTSTEEL = FLUIDS.register("molten_froststeel",
+            () -> new ForgeFlowingFluid.Source(makeMoltenFroststeelProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_FROSTSTEEL = FLUIDS.register("flowing_molten_froststeel",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenFroststeelProperties()));
+
+    public static final RegistryObject<ForgeFlowingFluid.Source> FORGOTTEN = FLUIDS.register("molten_forgotten",
+            () -> new ForgeFlowingFluid.Source(makeMoltenForgottenProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_FORGOTTEN = FLUIDS.register("flowing_molten_forgotten",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenForgottenProperties()));
     
     
     //molten material properties
@@ -181,5 +202,33 @@ public class CompatFluids {
                 FluidAttributes.builder(LIQUID_STILL, LIQUID_FLOW).overlay(LIQUID_STILL).color(0xFF850a0a)
                         .luminosity(2).density(1200).viscosity(8000).temperature(1375).sound(SoundEvents.ITEM_BUCKET_FILL, SoundEvents.ITEM_BUCKET_EMPTY))
                 .bucket(CompatItems.FIERY_ESSENCE_BUCKET).block(CompatBlocks.FIERY_ESSENCE).explosionResistance(1000F).tickRate(5);
+    }
+    //twilight forest
+    private static ForgeFlowingFluid.Properties makeMoltenCloggrumProperties() {
+        return new ForgeFlowingFluid.Properties(CLOGGRUM, flowing_CLOGGRUM,
+                FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFF7b6959)
+                        .luminosity(6).density(3000).viscosity(6000).temperature(865).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
+                .bucket(CompatItems.CLOGGRUM_BUCKET).block(CompatBlocks.MOLTEN_CLOGGRUM).explosionResistance(1000F).tickRate(5);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenUtheriumProperties() {
+        return new ForgeFlowingFluid.Properties(UTHERIUM, flowing_UTHERIUM,
+                FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFFc3434c)
+                        .luminosity(12).density(3000).viscosity(6000).temperature(865).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
+                .bucket(CompatItems.UTHERIUM_BUCKET).block(CompatBlocks.MOLTEN_UTHERIUM).explosionResistance(1000F).tickRate(5);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenFroststeelProperties() {
+        return new ForgeFlowingFluid.Properties(FROSTSTEEL, flowing_FROSTSTEEL,
+                FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFF616a9b)
+                        .luminosity(9).density(3000).viscosity(6000).temperature(865).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
+                .bucket(CompatItems.FROSTSTEEL_BUCKET).block(CompatBlocks.MOLTEN_FROSTSTEEL).explosionResistance(1000F).tickRate(5);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenForgottenProperties() {
+        return new ForgeFlowingFluid.Properties(FORGOTTEN, flowing_FORGOTTEN,
+                FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFF278a6f)
+                        .luminosity(12).density(3000).viscosity(6000).temperature(1465).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
+                .bucket(CompatItems.FORGOTTEN_BUCKET).block(CompatBlocks.MOLTEN_FORGOTTEN).explosionResistance(1000F).tickRate(5);
     }
 }

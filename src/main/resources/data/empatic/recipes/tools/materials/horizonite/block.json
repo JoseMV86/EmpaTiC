@@ -7,6 +7,6 @@
   "needed": 1,
   "material": "empatic:horizonite",
   "leftover": {
-    "item": "blue_skies:ingots/horizonite"
+    "tag": "blue_skies:ingots/horizonite"
   }
 }

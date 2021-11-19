@@ -23,6 +23,11 @@
   "fluid.empatic.molten_knightmetal": "Molten Knightmetal",
   "fluid.empatic.molten_fiery": "Molten Fiery Metal",
   "fluid.empatic.fiery_essence": "Fiery essence",
+  //the undergarden
+  "fluid.empatic.molten_cloggrum": "Molten Cloggrum",
+  "fluid.empatic.molten_utherium": "Molten Utherium",
+  "fluid.empatic.molten_froststeel": "Molten Froststeel",
+  "fluid.empatic.molten_forgotten": "Molten Forgotten Metal",
 
   /*     Items    */
 
@@ -40,6 +45,11 @@
   "item.empatic.knightmetal_bucket": "Molten Knightmetal Bucket",
   "item.empatic.fiery_bucket": "Molten Fiery Metal Bucket",
   "item.empatic.fiery_essence_bucket": "Fiery essence Bucket",
+  //the undergarden
+  "item.empatic.cloggrum_bucket": "Molten Cloggrum Bucket",
+  "item.empatic.utherium_bucket": "Molten Utherium Bucket",
+  "item.empatic.froststeel_bucket": "Molten Froststeel Bucket",
+  "item.empatic.forgotten_bucket": "Molten Forgotten Metal Bucket",
 
   /*     Materials    */
 
@@ -86,6 +96,19 @@
   "material.empatic.fiery": "Fiery",
   "material.empatic.fiery.flavor": "Embodiment of fire itself",
   "material.empatic.fiery.encyclopedia": "Has Fiery as its base trait, burning enemies for 5 seconds per level",
+  //the undergarden
+  "material.empatic.cloggrum": "Cloggrum",
+  "material.empatic.cloggrum.flavor": "It might not look fancy, but it's good, I swear",
+  "material.empatic.cloggrum.encyclopedia": "+15% per level chance of mining 100% faster than usual",
+  "material.empatic.utherium": "Utherium",
+  "material.empatic.utherium.flavor": "Metherium, Utherium, Theytherium...",
+  "material.empatic.utherium.encyclopedia": "Grants +25% attack damage per level when attacking rotspawn",
+  "material.empatic.froststeel": "Froststeel",
+  "material.empatic.froststeel.flavor": "Beloved tomboish steel",
+  "material.empatic.froststeel.encyclopedia": "Affects enemies with slowness for 4 seconds per level on hit. Slowness' level caps at slowness II",
+  "material.empatic.forgotten": "Forgotten",
+  "material.empatic.forgotten.flavor": "Rediscovered. Rebuilt. Revenge",
+  "material.empatic.forgotten.encyclopedia": "+33% damage against non-boss Undergarden creatures and +33% mining speed against Undergarden blocks per level",
 
   /*      Modifiers      */
 
@@ -130,5 +153,18 @@
   "modifier.empatic.forestspeed.description": "Consumes forest energy to boost mining speed",
   "modifier.empatic.armored": "Armored",
   "modifier.empatic.armored.flavor": "Worthy of a Lingering Will",
-  "modifier.empatic.armored.description": "The lower on health you are, the more likely you'll be granted a resistance potion effect when attacking"
+  "modifier.empatic.armored.description": "The lower on health you are, the more likely you'll be granted a resistance potion effect when attacking",
+
+  "modifier.empatic.overheated": "Underheated",
+  "modifier.empatic.overheated.flavor": "Underestimated",
+  "modifier.empatic.overheated.description": "Randomly mines blocks faster",
+  "modifier.empatic.rotkiller": "Rotkiller",
+  "modifier.empatic.rotkiller.flavor": "You don't Belong in this World!",
+  "modifier.empatic.rotkiller.description": "Extra attack damage against rotspawn",
+  "modifier.empatic.frosty": "Frosty",
+  "modifier.empatic.frosty.flavor": "Cold as Ice",
+  "modifier.empatic.frosty.description": "Causes your enemies to slow down on hit",
+  "modifier.empatic.gloomy": "Gloomy",
+  "modifier.empatic.gloomy.flavor": "It's not a phase!",
+  "modifier.empatic.gloomy.description": "Extra mining speed and attack damage against everything non-boss Undergarden related"
 }

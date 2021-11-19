@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "undergarden:forgotten_guardian"
+    ]
+  },
+  "result": {
+    "fluid": "empatic:molten_forgotten",
+    "amount": 8
+  },
+  "damage": 2
+}

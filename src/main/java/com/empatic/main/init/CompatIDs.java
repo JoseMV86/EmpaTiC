@@ -6,6 +6,7 @@ import net.minecraft.util.ResourceLocation;
 import slimeknights.tconstruct.TConstruct;
 import slimeknights.tconstruct.library.materials.definition.MaterialId;
 
+//Unused as of now. Might use it in a texture generator
 public final class CompatIDs {
   // Own
   public static final MaterialId sandstone = id("sandstone");

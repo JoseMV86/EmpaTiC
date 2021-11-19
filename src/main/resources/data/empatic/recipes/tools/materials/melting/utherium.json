@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:utherium",
+  "temperature": 865,
+  "result": {
+    "fluid": "empatic:molten_utherium",
+    "amount": 144
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:forgotten",
+  "temperature": 1465,
+  "result": {
+    "fluid": "empatic:molten_forgotten",
+    "amount": 144
+  }
+}

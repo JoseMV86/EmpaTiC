@@ -41,9 +41,8 @@ public class CompatItems {
 					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("blue_skies") ? ItemGroup.MISC : null)));
 	public static final RegistryObject<Item> FALSITE_BUCKET = ITEMS.register("falsite_bucket", 
 			() -> new BucketItem(CompatFluids.FALSITE,
-
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("blue_skies") ? ItemGroup.MISC : null)));
 	//twilight forest
-					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("twilightforest") ? ItemGroup.MISC : null)));
 	public static final RegistryObject<Item> IRONWOOD_BUCKET = ITEMS.register("ironwood_bucket",
 			() -> new BucketItem(CompatFluids.IRONWOOD,
 					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("twilightforest") ? ItemGroup.MISC : null)));
@@ -59,4 +58,17 @@ public class CompatItems {
 	public static final RegistryObject<Item> FIERY_ESSENCE_BUCKET = ITEMS.register("fiery_essence_bucket",
 			() -> new BucketItem(CompatFluids.FIERYESSENCE,
 					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("twilightforest") ? ItemGroup.MISC : null)));
+	//the undergarden
+	public static final RegistryObject<Item> CLOGGRUM_BUCKET = ITEMS.register("cloggrum_bucket",
+			() -> new BucketItem(CompatFluids.CLOGGRUM,
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("undergarden") ? ItemGroup.MISC : null)));
+	public static final RegistryObject<Item> UTHERIUM_BUCKET = ITEMS.register("utherium_bucket",
+			() -> new BucketItem(CompatFluids.UTHERIUM,
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("undergarden") ? ItemGroup.MISC : null)));
+	public static final RegistryObject<Item> FROSTSTEEL_BUCKET = ITEMS.register("froststeel_bucket",
+			() -> new BucketItem(CompatFluids.FROSTSTEEL,
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("undergarden") ? ItemGroup.MISC : null)));
+	public static final RegistryObject<Item> FORGOTTEN_BUCKET = ITEMS.register("forgotten_bucket",
+			() -> new BucketItem(CompatFluids.FORGOTTEN,
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("undergarden") ? ItemGroup.MISC : null)));
 }

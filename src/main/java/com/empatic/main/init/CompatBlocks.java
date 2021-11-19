@@ -54,5 +54,18 @@ public class CompatBlocks {
     public static final RegistryObject<FlowingFluidBlock> FIERY_ESSENCE = BLOCKS
             .register("fiery_essence_block", () -> new FlowingFluidBlock(CompatFluids.FIERYESSENCE,
                     Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 2;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
+    //twilight forest
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_CLOGGRUM = BLOCKS
+            .register("molten_cloggrum_block", () -> new FlowingFluidBlock(CompatFluids.CLOGGRUM,
+                    Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 6;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_UTHERIUM = BLOCKS
+            .register("molten_utherium_block", () -> new FlowingFluidBlock(CompatFluids.UTHERIUM,
+                    Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 12;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_FROSTSTEEL = BLOCKS
+            .register("molten_froststeel_block", () -> new FlowingFluidBlock(CompatFluids.FROSTSTEEL,
+                    Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 9;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_FORGOTTEN = BLOCKS
+            .register("molten_forgotten_block", () -> new FlowingFluidBlock(CompatFluids.FORGOTTEN,
+                    Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 12;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
 
 }

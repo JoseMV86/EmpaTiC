@@ -23,4 +23,8 @@ public class CompatModifiers {
 	public static final RegistryObject<ForestKnockbackModifier> FORESTKNOCKBACK = MODIFIERS.register("forestknockback", ForestKnockbackModifier::new);
 	public static final RegistryObject<ForestSpeedModifier> FORESTSPEED = MODIFIERS.register("forestspeed", ForestSpeedModifier::new);
 	public static final RegistryObject<ArmoredModifier> ARMORED = MODIFIERS.register("armored", ArmoredModifier::new);
+	public static final RegistryObject<OverheatedModifier> OVERHEATED = MODIFIERS.register("overheated", OverheatedModifier::new);
+	public static final RegistryObject<FrostyModifier> FROSTY = MODIFIERS.register("frosty", FrostyModifier::new);
+	public static final RegistryObject<RotkillerModifier> ROTKILLER = MODIFIERS.register("rotkiller", RotkillerModifier::new);
+	public static final RegistryObject<GloomyModifier> GLOOMY = MODIFIERS.register("gloomy", GloomyModifier::new);
 }
