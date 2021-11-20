@@ -102,6 +102,7 @@ dependencies {
 
     // optional dependencies
     implementation fg.deobf ("vazkii.botania:Botania:${minecraft_version}-${botania_version}")
+    implementation fg.deobf ("curse.maven:the-undergarden-379849:3477594")
 
     // optional libs
     implementation fg.deobf ("curse.maven:citadel-331936:${citadel_version}")
