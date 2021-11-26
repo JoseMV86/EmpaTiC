@@ -1,4 +1,52 @@
 {
-  "fallbacks": [ "wood" ],
-  "color": "5d2e19"
+  "fallbacks": [
+    "wood"
+  ],
+  "color": "6C361D",
+  "luminosity": 0,
+  "generator": {
+    "transformer": {
+      "type": "tconstruct:recolor_sprite",
+      "color_mapping": {
+        "type": "tconstruct:grey_to_color",
+        "palette": [
+          {
+            "grey": 0,
+            "color": "FF000000"
+          },
+          {
+            "grey": 63,
+            "color": "FF29130A"
+          },
+          {
+            "grey": 102,
+            "color": "FF3D1E10"
+          },
+          {
+            "grey": 140,
+            "color": "FF4C2514"
+          },
+          {
+            "grey": 178,
+            "color": "FF552917"
+          },
+          {
+            "grey": 216,
+            "color": "FF5D2E19"
+          },
+          {
+            "grey": 255,
+            "color": "FF6C361D"
+          }
+        ]
+      }
+    },
+    "supportedStats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:extra",
+      "tconstruct:repair_kit"
+    ],
+    "ignoreMaterialStats": false
+  }
 }
