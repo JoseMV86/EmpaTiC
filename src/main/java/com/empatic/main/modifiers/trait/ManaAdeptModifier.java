@@ -17,7 +17,7 @@ public class ManaAdeptModifier extends Modifier{
 	
 	@Override 
 	public void onInventoryTick(IModifierToolStack tool, int level, World world, LivingEntity holder, int itemSlot, boolean isSelected, boolean isCorrectSlot, ItemStack stack) {
-		if (!world.isRemote && world.getGameTime() % 20 == 0 && holder instanceof PlayerEntity && stack.getDamage() > 0 
+		if (!world.isRemote && world.getGameTime() % 20 == 0 && holder instanceof PlayerEntity && stack.getDamage() > 0 && holder.getActiveItemStack() != stack
 				&& ManaItemHandler.instance().requestManaExactForTool(stack, (PlayerEntity) holder, (int)(512/(Math.pow(2,level-1))), true)) {
 			stack.setDamage(stack.getDamage() - 1);
 		}

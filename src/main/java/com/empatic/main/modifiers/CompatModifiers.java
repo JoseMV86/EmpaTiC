@@ -3,11 +3,9 @@ package com.empatic.main.modifiers;
 import com.empatic.main.EmpaTiC;
 import com.empatic.main.modifiers.trait.*;
 
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import slimeknights.tconstruct.library.modifiers.Modifier;
-import slimeknights.tconstruct.tools.modifiers.effect.BleedingEffect;
 
 public class CompatModifiers {
 	public static final DeferredRegister<Modifier> MODIFIERS = DeferredRegister.create(Modifier.class, EmpaTiC.MODID);
@@ -27,4 +25,7 @@ public class CompatModifiers {
 	public static final RegistryObject<FrostyModifier> FROSTY = MODIFIERS.register("frosty", FrostyModifier::new);
 	public static final RegistryObject<RotkillerModifier> ROTKILLER = MODIFIERS.register("rotkiller", RotkillerModifier::new);
 	public static final RegistryObject<GloomyModifier> GLOOMY = MODIFIERS.register("gloomy", GloomyModifier::new);
+	public static final RegistryObject<TornApartModifier> TORNAPART = MODIFIERS.register("tornapart", TornApartModifier::new);
+	public static final RegistryObject<DynamicModifier> DYNAMIC = MODIFIERS.register("dynamic", DynamicModifier::new);
+	public static final RegistryObject<FireproofModifier> FIREPROOF = MODIFIERS.register("fireproof", FireproofModifier::new);
 }

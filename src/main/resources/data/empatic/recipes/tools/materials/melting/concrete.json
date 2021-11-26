@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:concrete",
+  "temperature": 450,
+  "result": {
+    "fluid": "immersiveengineering:concrete",
+    "amount": 144
+  }
+}

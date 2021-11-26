@@ -109,6 +109,16 @@
   "material.empatic.forgotten": "Forgotten",
   "material.empatic.forgotten.flavor": "Rediscovered. Rebuilt. Revenge",
   "material.empatic.forgotten.encyclopedia": "+33% damage against non-boss Undergarden creatures and +33% mining speed against Undergarden blocks per level",
+  //immersiveengineering
+  "material.empatic.concrete": "Concrete",
+  "material.empatic.concrete.flavor": "Quite possibly the cheapest tier 2 material there is, bloodbone aside",
+  "material.empatic.concrete.encyclopedia": "The 6th hit you deal gets +3 damage per level",
+  "material.empatic.graphite": "HOP Graphite",
+  "material.empatic.graphite.flavor": "Coal tools! ...mostly",
+  "material.empatic.graphite.encyclopedia": "Accumulates energy while running to mine 9% faster per level. Stores up to 30 energy per level",
+  "material.empatic.treatedwood": "Treated Wood",
+  "material.empatic.treatedwood.flavor": "Creosote oil isn't only a good fuel",
+  "material.empatic.treatedwood.encyclopedia": "Enhances knockback against burning enemies",
 
   /*      Modifiers      */
 
@@ -166,5 +176,15 @@
   "modifier.empatic.frosty.description": "Causes your enemies to slow down on hit",
   "modifier.empatic.gloomy": "Gloomy",
   "modifier.empatic.gloomy.flavor": "It's not a phase!",
-  "modifier.empatic.gloomy.description": "Extra mining speed and attack damage against everything non-boss Undergarden related"
+  "modifier.empatic.gloomy.description": "Extra mining speed and attack damage against everything non-boss Undergarden related",
+
+  "modifier.empatic.tornapart": "Torn Apart",
+  "modifier.empatic.tornapart.flavor": "Break their Bones, not your Weapon",
+  "modifier.empatic.tornapart.description": "Every 5 hits you deal, the 6th one gets extra damage",
+  "modifier.empatic.dynamic": "Dynamic",
+  "modifier.empatic.dynamic.flavor": "Not Integrated",
+  "modifier.empatic.dynamic.description": "Gets extra mining speed using accumulated speed. Accumulate it while running",
+  "modifier.empatic.fireproof": "Fireproof",
+  "modifier.empatic.fireproof.flavor": "Fired Up",
+  "modifier.empatic.fireproof.description": "Burning enemies hit with this tool will take extra knockback"
 }

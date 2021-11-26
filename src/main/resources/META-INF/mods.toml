@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="empatic" 
-version="0.1"
+version="0.1.2"
 displayName="EmpaTiC"
 authors="Jose_MV86 (coding), Hamster_Man_ (textures)"
 #credits="Slime Knights (Tinkers' Construct), RCXCrafter (Materialis), ianm1647 (Tinkers Better Compat)"

@@ -24,7 +24,7 @@ public class ForestKnockbackModifier extends Modifier {
     }
     if (comparer.getEnergy(tool) > 0) {
       comparer.addEnergy(tool, level, -1);
-      return knockback + 0.25f * level;
+      return knockback + 0.4f * level;
     }
     return knockback;
   }

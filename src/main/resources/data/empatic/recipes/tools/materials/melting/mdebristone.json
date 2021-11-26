@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:mdebristone",
+  "temperature": 1415,
+  "result": {
+    "fluid": "tconstruct:molten_debris",
+    "amount": 48
+  }
+}
