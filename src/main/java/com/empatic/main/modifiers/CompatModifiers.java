@@ -28,4 +28,9 @@ public class CompatModifiers {
 	public static final RegistryObject<TornApartModifier> TORNAPART = MODIFIERS.register("tornapart", TornApartModifier::new);
 	public static final RegistryObject<DynamicModifier> DYNAMIC = MODIFIERS.register("dynamic", DynamicModifier::new);
 	public static final RegistryObject<FireproofModifier> FIREPROOF = MODIFIERS.register("fireproof", FireproofModifier::new);
+	public static final RegistryObject<AscendingModifier> ASCENDING = MODIFIERS.register("ascending", AscendingModifier::new);
+	public static final RegistryObject<OverlightModifier> OVERLIGHT = MODIFIERS.register("overlight", OverlightModifier::new);
+	public static final RegistryObject<ShadowshieldModifier> SHADOWSHIELD = MODIFIERS.register("shadowshield", ShadowshieldModifier::new); //Unused
+	public static final RegistryObject<VoidCallingModifier> VOIDCALLING = MODIFIERS.register("voidcalling", VoidCallingModifier::new);
+	public static final RegistryObject<ThinModifier> THIN = MODIFIERS.register("thin", ThinModifier::new);
 }

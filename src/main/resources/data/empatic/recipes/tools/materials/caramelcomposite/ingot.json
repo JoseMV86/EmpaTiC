@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "empatic:caramel_composite"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "empatic:caramelcomposite"
+}

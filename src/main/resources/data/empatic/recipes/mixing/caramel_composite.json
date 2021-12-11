@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "results": [
+    {
+      "item": "empatic:caramel_composite"
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_brass",
+      "amount": 144
+    },
+    {
+      "tag": "tconstruct:liquid_soul",
+      "amount": 500
+    }
+  ],
+  "result": {
+    "fluid": "empatic:molten_hauntedbrass",
+    "amount": 144
+  },
+  "temperature": 860
+}

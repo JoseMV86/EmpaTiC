@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "empatic:haunted_brass",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "empatic:caramel_composite",
+      "required": false
+    }
+  ]
+}

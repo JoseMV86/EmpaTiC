@@ -7,6 +7,8 @@
   "block.empatic.milkonstantan_block": "Block of Milkonstantan",
   "item.empatic.milkonstantan_ingot": "Milkonstantan Ingot",
   "item.empatic.milkonstantan_nugget": "Milkonstantan Nugget",
+  "item.empatic.haunted_brass": "Haunted Brass",
+  "item.empatic.caramel_composite": "Caramel Composite",
   "fluid.empatic.molten_milkonstantan": "Molten Milkonstantan",
   "item.empatic.milkonstantan_bucket": "Molten Milkonstantan Bucket",
   //botania
@@ -28,6 +30,11 @@
   "fluid.empatic.molten_utherium": "Molten Utherium",
   "fluid.empatic.molten_froststeel": "Molten Froststeel",
   "fluid.empatic.molten_forgotten": "Molten Forgotten Metal",
+  //create
+  "fluid.empatic.molten_caramelcomposite": "Molten Caramel Composite",
+  "fluid.empatic.molten_refinedradiance": "Molten Refined Radiance",
+  "fluid.empatic.molten_shadowsteel": "Molten Shadow Steel",
+  "fluid.empatic.molten_hauntedbrass": "Molten Haunted Brass",
 
   /*     Items    */
 
@@ -50,6 +57,11 @@
   "item.empatic.utherium_bucket": "Molten Utherium Bucket",
   "item.empatic.froststeel_bucket": "Molten Froststeel Bucket",
   "item.empatic.forgotten_bucket": "Molten Forgotten Metal Bucket",
+  //create
+  "item.empatic.caramelcomposite_bucket": "Molten Caramel Composite Bucket",
+  "item.empatic.refinedradiance_bucket": "Molten Refined Radiance Bucket",
+  "item.empatic.shadowsteel_bucket": "Molten Shadow Steel Bucket",
+  "item.empatic.hauntedbrass_bucket": "Molten Haunted Brass Bucket",
 
   /*     Materials    */
 
@@ -105,7 +117,7 @@
   "material.empatic.utherium.encyclopedia": "Grants +25% attack damage per level when attacking rotspawn",
   "material.empatic.froststeel": "Froststeel",
   "material.empatic.froststeel.flavor": "Beloved tomboish steel",
-  "material.empatic.froststeel.encyclopedia": "Affects enemies with slowness for 4 seconds per level on hit. Slowness' level caps at slowness II",
+  "material.empatic.froststeel.encyclopedia": "Affects enemies with slowness for 4 seconds per level on hit. Slowness' level equals the trait's",
   "material.empatic.forgotten": "Forgotten",
   "material.empatic.forgotten.flavor": "Rediscovered. Rebuilt. Revenge",
   "material.empatic.forgotten.encyclopedia": "+33% damage against non-boss Undergarden creatures and +33% mining speed against Undergarden blocks per level",
@@ -119,6 +131,20 @@
   "material.empatic.treatedwood": "Treated Wood",
   "material.empatic.treatedwood.flavor": "Creosote oil isn't only a good fuel",
   "material.empatic.treatedwood.encyclopedia": "Enhances knockback against burning enemies",
+  //create
+  "material.empatic.caramelcomposite": "Caramel Composite",
+  "material.empatic.caramelcomposite.flavor": "Sugar Sweet",
+  "material.empatic.caramelcomposite.encyclopedia": "+25% per level chance of regenerating overslime when exposed to daylight. Grants minor capacity buffs.",
+  "material.empatic.refinedradiance": "Refined Radiance",
+  "material.empatic.refinedradiance.flavor": "To the sky, and beyond",
+  "material.empatic.refinedradiance.encyclopedia": "20% chance of making your enemies levitate on hit. Higher levels make them levitate higher.",
+  "material.empatic.shadowsteel": "Shadow Steel",
+  "material.empatic.shadowsteel.flavor": "Ow, the edge",
+  "material.empatic.shadowsteel.encyclopedia": "20% per level chance of not consuming durability if you're in a dark enough place",
+  "material.empatic.hauntedbrass": "Haunted Brass",
+  "material.empatic.hauntedbrass.flavor": "Boo!",
+  "material.empatic.hauntedbrass.encyclopedia": "+10.5% attack speed per level. 10% chance per level of granting weakness from 3 to 6 seconds to its holder on hit",
+
 
   /*      Modifiers      */
 
@@ -186,5 +212,18 @@
   "modifier.empatic.dynamic.description": "Gets extra mining speed using accumulated speed. Accumulate it while running",
   "modifier.empatic.fireproof": "Fireproof",
   "modifier.empatic.fireproof.flavor": "Fired Up",
-  "modifier.empatic.fireproof.description": "Burning enemies hit with this tool will take extra knockback"
+  "modifier.empatic.fireproof.description": "Burning enemies hit with this tool will take extra knockback",
+
+  "modifier.empatic.overlight": "Oversweet",
+  "modifier.empatic.overlight.flavor": "Bee's Delight",
+  "modifier.empatic.overlight.description": "Regenerates overslime when exposed to daylight",
+  "modifier.empatic.ascending": "Ascending",
+  "modifier.empatic.ascending.flavor": "No Advent this Time!",
+  "modifier.empatic.ascending.description": "Might make enemies start levitating on hit",
+  "modifier.empatic.voidcalling": "Void Calling",
+  "modifier.empatic.voidcalling.flavor": "Endersent",
+  "modifier.empatic.voidcalling.description": "Might not consume durability when in dark areas",
+  "modifier.empatic.thin": "Thin",
+  "modifier.empatic.thin.flavor": "Slim instead of Slime",
+  "modifier.empatic.thin.description": "Severely increases attack speed at the cost of randomly granting weakness on hit to its user"
 }

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:refinedradiance",
+  "temperature": 1450,
+  "result": {
+    "fluid": "empatic:molten_refinedradiance",
+    "amount": 144
+  }
+}

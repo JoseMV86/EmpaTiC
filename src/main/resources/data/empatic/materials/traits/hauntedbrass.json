@@ -1,0 +1,8 @@
+{
+  "default": [
+    {
+      "name": "empatic:thin",
+      "level": 1
+    }
+  ]
+}

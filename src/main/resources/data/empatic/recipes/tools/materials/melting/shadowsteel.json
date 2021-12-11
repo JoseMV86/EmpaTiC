@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "empatic:shadowsteel",
+  "temperature": 1450,
+  "result": {
+    "fluid": "empatic:molten_shadowsteel",
+    "amount": 144
+  }
+}

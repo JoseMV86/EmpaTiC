@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "create:extendo_grip"
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/harvest"
+    },
+    {
+      "tag": "tconstruct:modifiable/armor/chestplate"
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "result": {
+    "name": "tconstruct:reach",
+    "level": 1
+  }
+}

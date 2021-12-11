@@ -26,5 +26,8 @@ public class EmpaTiC
 			if(ModList.get().isLoaded("botania")){
 				BotaniaModifiers.MODIFIERS.register(modEventBus);
 			}
+			if(ModList.get().isLoaded("create")){
+				CreateItems.ITEMS.register(modEventBus);
+			}
 		}
 }

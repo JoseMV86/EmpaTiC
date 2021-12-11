@@ -18,7 +18,7 @@ public class FrostyModifier extends Modifier {
 	public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damageDealt) {
 		LivingEntity target = context.getLivingTarget();
 		if (target != null) {
-			target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 80*level, Math.max(2,level)));
+			target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 80*level, level-1));
 		}
 		return 0;
 	}

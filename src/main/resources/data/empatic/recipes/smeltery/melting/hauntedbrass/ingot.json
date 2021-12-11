@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "create",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "empatic:haunted_brass"
+  },
+  "result": {
+    "fluid": "empatic:molten_hauntedbrass",
+    "amount": 144
+  },
+  "temperature": 860,
+  "time": 75,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

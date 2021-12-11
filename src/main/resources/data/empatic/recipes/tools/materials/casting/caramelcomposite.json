@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "empatic:molten_caramelcomposite",
+    "amount": 144
+  },
+  "temperature": 900,
+  "output": "empatic:caramelcomposite"
+}

@@ -93,7 +93,7 @@ public class CompatFluids {
     public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_FIERYESSENCE = FLUIDS.register("flowing_fiery_essence",
             () -> new ForgeFlowingFluid.Flowing(makeFieryEssenceProperties()));
 
-    //twilight forest
+    //undergarden
     public static final RegistryObject<ForgeFlowingFluid.Source> CLOGGRUM = FLUIDS.register("molten_cloggrum",
             () -> new ForgeFlowingFluid.Source(makeMoltenCloggrumProperties()));
     public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_CLOGGRUM = FLUIDS.register("flowing_molten_cloggrum",
@@ -113,6 +113,29 @@ public class CompatFluids {
             () -> new ForgeFlowingFluid.Source(makeMoltenForgottenProperties()));
     public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_FORGOTTEN = FLUIDS.register("flowing_molten_forgotten",
             () -> new ForgeFlowingFluid.Flowing(makeMoltenForgottenProperties()));
+
+    //create
+    public static final RegistryObject<ForgeFlowingFluid.Source> CARAMELCOMPOSITE = FLUIDS.register("molten_caramelcomposite",
+            () -> new ForgeFlowingFluid.Source(makeMoltenCaramelCompositeProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_CARAMELCOMPOSITE = FLUIDS.register("flowing_molten_caramelcomposite",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenCaramelCompositeProperties()));
+
+    public static final RegistryObject<ForgeFlowingFluid.Source> REFINEDRADIANCE = FLUIDS.register("molten_refinedradiance",
+            () -> new ForgeFlowingFluid.Source(makeMoltenRefinedRadianceProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_REFINEDRADIANCE = FLUIDS.register("flowing_molten_refinedradiance",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenRefinedRadianceProperties()));
+
+    public static final RegistryObject<ForgeFlowingFluid.Source> SHADOWSTEEL = FLUIDS.register("molten_shadowsteel",
+            () -> new ForgeFlowingFluid.Source(makeMoltenShadowSteelProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_SHADOWSTEEL = FLUIDS.register("flowing_molten_shadowsteel",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenShadowSteelProperties()));
+
+    public static final RegistryObject<ForgeFlowingFluid.Source> HAUNTEDBRASS = FLUIDS.register("molten_hauntedbrass",
+            () -> new ForgeFlowingFluid.Source(makeMoltenHauntedBrassProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_HAUNTEDBRASS = FLUIDS.register("flowing_molten_hauntedbrass",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenHauntedBrassProperties()));
+
+
     
     
     //molten material properties
@@ -230,5 +253,33 @@ public class CompatFluids {
                 FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFF278a6f)
                         .luminosity(12).density(3000).viscosity(6000).temperature(1465).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
                 .bucket(CompatItems.FORGOTTEN_BUCKET).block(CompatBlocks.MOLTEN_FORGOTTEN).explosionResistance(1000F).tickRate(5);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenCaramelCompositeProperties() {
+        return new ForgeFlowingFluid.Properties(CARAMELCOMPOSITE, flowing_CARAMELCOMPOSITE,
+                FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFFfed32e)
+                        .luminosity(10).density(3000).viscosity(6000).temperature(900).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
+                .bucket(CompatItems.CARAMELCOMPOSITE_BUCKET).block(CompatBlocks.MOLTEN_CARAMELCOMPOSITE).explosionResistance(1000F).tickRate(5);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenRefinedRadianceProperties() {
+        return new ForgeFlowingFluid.Properties(REFINEDRADIANCE, flowing_REFINEDRADIANCE,
+                FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFFf5fae1)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1450).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
+                .bucket(CompatItems.REFINEDRADIANCE_BUCKET).block(CompatBlocks.MOLTEN_REFINEDRADIANCE).explosionResistance(1000F).tickRate(5);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenShadowSteelProperties() {
+        return new ForgeFlowingFluid.Properties(SHADOWSTEEL, flowing_SHADOWSTEEL,
+                FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFF575366)
+                        .luminosity(3).density(3000).viscosity(6000).temperature(1450).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
+                .bucket(CompatItems.SHADOWSTEEL_BUCKET).block(CompatBlocks.MOLTEN_SHADOWSTEEL).explosionResistance(1000F).tickRate(5);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenHauntedBrassProperties() {
+        return new ForgeFlowingFluid.Properties(HAUNTEDBRASS, flowing_HAUNTEDBRASS,
+                FluidAttributes.builder(MOLTEN_METAL_STILL, MOLTEN_METAL_FLOW).overlay(MOLTEN_METAL_STILL).color(0xFF816c53)
+                        .luminosity(6).density(3000).viscosity(6000).temperature(860).sound(SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundEvents.ITEM_BUCKET_EMPTY_LAVA))
+                .bucket(CompatItems.HAUNTEDBRASS_BUCKET).block(CompatBlocks.MOLTEN_HAUNTEDBRASS).explosionResistance(1000F).tickRate(5);
     }
 }

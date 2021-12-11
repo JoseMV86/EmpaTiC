@@ -1,0 +1,23 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "empatic:chromatic_compound",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 6,
+  "textColor": "#ffbb3b",
+  "hidden": false
+}

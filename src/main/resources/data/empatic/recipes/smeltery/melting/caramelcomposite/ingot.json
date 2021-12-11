@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "create",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "empatic:caramel_composite"
+  },
+  "result": {
+    "fluid": "empatic:molten_caramelcomposite",
+    "amount": 144
+  },
+  "temperature": 900,
+  "time": 75,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

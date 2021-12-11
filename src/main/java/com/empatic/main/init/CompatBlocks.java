@@ -54,7 +54,8 @@ public class CompatBlocks {
     public static final RegistryObject<FlowingFluidBlock> FIERY_ESSENCE = BLOCKS
             .register("fiery_essence_block", () -> new FlowingFluidBlock(CompatFluids.FIERYESSENCE,
                     Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 2;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
-    //twilight forest
+
+    //the undergarden
     public static final RegistryObject<FlowingFluidBlock> MOLTEN_CLOGGRUM = BLOCKS
             .register("molten_cloggrum_block", () -> new FlowingFluidBlock(CompatFluids.CLOGGRUM,
                     Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 6;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
@@ -67,5 +68,19 @@ public class CompatBlocks {
     public static final RegistryObject<FlowingFluidBlock> MOLTEN_FORGOTTEN = BLOCKS
             .register("molten_forgotten_block", () -> new FlowingFluidBlock(CompatFluids.FORGOTTEN,
                     Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 12;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
+
+    //create
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_CARAMELCOMPOSITE = BLOCKS
+            .register("molten_caramelcomposite_block", () -> new FlowingFluidBlock(CompatFluids.CARAMELCOMPOSITE,
+                    Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 10;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_REFINEDRADIANCE = BLOCKS
+            .register("molten_refinedradiance_block", () -> new FlowingFluidBlock(CompatFluids.REFINEDRADIANCE,
+                    Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 15;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_SHADOWSTEEL = BLOCKS
+            .register("molten_shadowsteel_block", () -> new FlowingFluidBlock(CompatFluids.SHADOWSTEEL,
+                    Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 3;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_HAUNTEDBRASS = BLOCKS
+            .register("molten_hauntedbrass_block", () -> new FlowingFluidBlock(CompatFluids.HAUNTEDBRASS,
+                    Block.Properties.create(Material.LAVA).setLightLevel((state) -> {	return 6;	}).tickRandomly().hardnessAndResistance(100.0F).noDrops()));
 
 }

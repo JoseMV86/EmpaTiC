@@ -1,6 +1,7 @@
 {
   "fallbacks": [
-    "wood"
+    "wood",
+    "stick"
   ],
   "color": "6C361D",
   "luminosity": 0,

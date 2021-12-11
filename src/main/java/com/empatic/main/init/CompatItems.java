@@ -19,7 +19,6 @@ public class CompatItems {
 			() -> new Item(new Item.Properties().group(TinkerModule.TAB_GENERAL)));
 	public static final RegistryObject<Item> MILKONSTANTAN_NUGGET = ITEMS.register("milkonstantan_nugget",
 			() -> new Item(new Item.Properties().group(TinkerModule.TAB_GENERAL)));
-
 	public static final RegistryObject<Item> MILKONSTANTAN_BUCKET = ITEMS.register("milkonstantan_bucket", 
 			() -> new BucketItem(CompatFluids.MILKONSTANTAN, new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ItemGroup.MISC)));
 	//botania
@@ -71,4 +70,18 @@ public class CompatItems {
 	public static final RegistryObject<Item> FORGOTTEN_BUCKET = ITEMS.register("forgotten_bucket",
 			() -> new BucketItem(CompatFluids.FORGOTTEN,
 					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("undergarden") ? ItemGroup.MISC : null)));
+	//create
+	public static final RegistryObject<Item> CARAMELCOMPOSITE_BUCKET = ITEMS.register("caramelcomposite_bucket",
+			() -> new BucketItem(CompatFluids.CARAMELCOMPOSITE,
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("create") ? ItemGroup.MISC : null)));
+	public static final RegistryObject<Item> REFINEDRADIANCE_BUCKET = ITEMS.register("refinedradiance_bucket",
+			() -> new BucketItem(CompatFluids.REFINEDRADIANCE,
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("create") ? ItemGroup.MISC : null)));
+	public static final RegistryObject<Item> SHADOWSTEEL_BUCKET = ITEMS.register("shadowsteel_bucket",
+			() -> new BucketItem(CompatFluids.SHADOWSTEEL,
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("create") ? ItemGroup.MISC : null)));
+	public static final RegistryObject<Item> HAUNTEDBRASS_BUCKET = ITEMS.register("hauntedbrass_bucket",
+			() -> new BucketItem(CompatFluids.HAUNTEDBRASS,
+					new BucketItem.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ModList.get().isLoaded("create") ? ItemGroup.MISC : null)));
+
 }
