@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_elementium",
-    "amount": 16
+    "amount": 10
   },
   "result": "botania:elementium_nugget",
   "cooling_time": 29,

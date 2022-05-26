@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_manasteel",
-    "amount": 16
+    "amount": 10
   },
   "result": "botania:manasteel_nugget",
   "cooling_time": 29,

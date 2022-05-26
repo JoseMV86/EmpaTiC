@@ -15,7 +15,7 @@
   "type": "tconstruct:casting_basin",
   "fluid": {
     "name": "empatic:molten_ventium",
-    "amount": 1296
+    "amount": 810
   },
   "result": "blue_skies:ventium_block",
   "cooling_time": 200,

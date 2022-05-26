@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_caramelcomposite",
-    "amount": 144
+    "amount": 90
   },
   "result": "empatic:caramel_composite",
   "cooling_time": 85,

@@ -19,7 +19,7 @@
   "cast_consumed": true,
   "fluid": {
     "name": "empatic:molten_manasteel",
-    "amount": 144
+    "amount": 90
   },
   "result": "botania:manasteel_ingot",
   "cooling_time": 85,

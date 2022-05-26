@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "undergarden",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "undergarden:forgotten_nugget"
+  },
+  "result": {
+    "fluid": "empatic:molten_forgotten",
+    "amount": 10
+  },
+  "temperature": 1465,
+  "time": 25,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

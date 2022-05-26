@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_froststeel",
-    "amount": 16
+    "amount": 10
   },
   "result": "undergarden:froststeel_nugget",
   "cooling_time": 30,

@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_forgotten",
-    "amount": 16
+    "amount": 10
   },
   "result": "undergarden:forgotten_nugget",
   "cooling_time": 30,

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/milkonstantan"
+  },
+  "result": {
+    "fluid": "empatic:molten_milkonstantan",
+    "amount": 10
+  },
+  "temperature": 875,
+  "time": 25,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

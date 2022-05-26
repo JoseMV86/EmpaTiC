@@ -1,0 +1,53 @@
+{
+  "fallbacks": [
+    "slime_metal",
+    "metal"
+  ],
+  "color": "809912",
+  "luminosity": 9,
+  "generator": {
+    "transformer": {
+      "type": "tconstruct:grey_to_sprite",
+      "palette": [
+        {
+          "grey": 0,
+          "color": "FF000000"
+        },
+        {
+          "grey": 63,
+          "color": "FFC8C8C8",
+          "path": "empatic:item/materials/generator/caramel_composite_border"
+        },
+        {
+          "grey": 102,
+          "path": "empatic:item/materials/generator/caramel_composite_border"
+        },
+        {
+          "grey": 140,
+          "color": "FFE1E1E1",
+          "path": "empatic:item/materials/generator/caramel_composite"
+        },
+        {
+          "grey": 178,
+          "path": "empatic:item/materials/generator/caramel_composite"
+        },
+        {
+          "grey": 216,
+          "color": "FFE1E1E1",
+          "path": "empatic:item/materials/generator/caramel_composite_highlight"
+        },
+        {
+          "grey": 255,
+          "path": "empatic:item/materials/generator/caramel_composite_highlight"
+        }
+      ]
+    },
+    "supportedStats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:extra",
+      "tconstruct:repair_kit"
+    ],
+    "ignoreMaterialStats": false
+  }
+}

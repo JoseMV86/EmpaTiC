@@ -1,23 +1,14 @@
 package com.empatic.main.modifiers.trait;
 
-import net.minecraft.block.Block;
-import net.minecraft.util.Direction;
-import net.minecraft.util.text.ITextComponent;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.core.Direction;
 import net.minecraftforge.common.Tags;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.entity.player.PlayerEvent.BreakSpeed;
-import slimeknights.tconstruct.common.TinkerTags;
 import slimeknights.tconstruct.library.modifiers.Modifier;
-import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
+import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
-import slimeknights.tconstruct.library.utils.TooltipFlag;
-
-import java.util.List;
 
 public class AridModifier extends Modifier {
-  public AridModifier() {
-    super(0xD1BA8A);
-  }
 
   @Override
   public int getPriority() {
@@ -25,10 +16,10 @@ public class AridModifier extends Modifier {
   }
 
   @Override
-  public void onBreakSpeed(IModifierToolStack tool, int level, BreakSpeed event, Direction sideHit, boolean isEffective, float miningSpeedModifier) {
-    Block block = event.getState().getBlock();
-    if (isEffective && (block.getTags().contains(new ResourceLocation("forge:sandstone")) || block.getTags().contains(new ResourceLocation("forge:sand")))) {
-      event.setNewSpeed(event.getNewSpeed() + (level * 4 * tool.getModifier(ToolStats.MINING_SPEED)));
+  public void onBreakSpeed(IToolStackView tool, int level, BreakSpeed event, Direction sideHit, boolean isEffective, float miningSpeedModifier) {
+    BlockState block = event.getState();
+    if (isEffective && (block.is(Tags.Blocks.SANDSTONE) || block.is(Tags.Blocks.SAND))) {
+      event.setNewSpeed(event.getNewSpeed() + (level * 4 * tool.getMultiplier(ToolStats.MINING_SPEED)));
     }
   }
 }

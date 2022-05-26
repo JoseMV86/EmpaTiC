@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "botania",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/manasteel"
+  },
+  "result": {
+    "fluid": "empatic:molten_manasteel",
+    "amount": 90
+  },
+  "temperature": 725,
+  "time": 75,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

@@ -1,24 +1,19 @@
 package com.empatic.main.modifiers.trait;
 
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.potion.Effects;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
-import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
+import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 
 public class FrostyModifier extends Modifier {
 
-
-	public FrostyModifier() {
-		super(0x8aadcf);
-	}
-
 	@Override
-	public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damageDealt) {
+	public int afterEntityHit(IToolStackView tool, int level, ToolAttackContext context, float damageDealt) {
 		LivingEntity target = context.getLivingTarget();
 		if (target != null) {
-			target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 80*level, level-1));
+			target.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 80*level, level-1));
 		}
 		return 0;
 	}

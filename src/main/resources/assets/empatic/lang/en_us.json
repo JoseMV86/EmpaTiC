@@ -81,7 +81,7 @@
   "material.empatic.manasteel.encyclopedia": "Grants Mana Adept 2 instead of 1, decreasing mana cost when repairing",
   "material.empatic.elementium": "Elementium",
   "material.empatic.elementium.flavor": "Souvenir from Alfheim! Elven trade exclusive",
-  "material.empatic.elementium.encyclopedia": "Adds a 25% chance of summoning a pixie. The pixie deals 2 + level/2 damage to an enemy",
+  "material.empatic.elementium.encyclopedia": "Adds a 25% chance of summoning a pixie. The pixie deals 3*level damage to an enemy",
   "material.empatic.terrasteel": "Terrasteel",
   "material.empatic.terrasteel.flavor": "Pure mana at its maximum level",
   "material.empatic.terrasteel.encyclopedia": "Uses mana to boost attack damage (+1) and mining speed (+2.5). Higher levels need less mana usage",

@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_terrasteel",
-    "amount": 16
+    "amount": 10
   },
   "result": "botania:terrasteel_nugget",
   "cooling_time": 29,

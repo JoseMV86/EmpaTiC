@@ -1,0 +1,42 @@
+{
+	"modifier.empatic": {
+		"arid": "#D1BA8A",
+		"clearing": "#D7D0BD",
+		"frail": "#D12533",
+		"underborn": "#584035",
+		"unreliable": "#761ED8",
+		"overheated": "#BA9D7B",
+		"frosty": "#8AADCF",
+		"rotkiller": "#D76559",
+		"gloomy": "#57E3B3",
+		"tornapart": "#766C64",
+		"dynamic": "#3F3F3F",
+		"fireproof": "#5D2E19",
+		"overlight": "#FFBB3B",
+		"thin": "#56A6A6",
+		"manaadept": "#36D6C6",
+		"manainfused": "#4DFF60",
+		"pixie": "#FF5787"
+	},
+
+	"material.empatic": {
+		"milkonstantan": "#D6BC80",
+		"sandstone": "#E3DBB0",
+		"mdebristone": "#56443C",
+		"ventium": "#DC3838",
+		"falsite": "#8479EF",
+		"horizonite": "#FF8F3A",
+		"manasteel": "#3389FF",
+		"terrasteel": "#A5FF10",
+		"elementium": "#F15CAE",
+		"cloggrum": "#968168",
+		"forgotten": "#57E3B3",
+		"froststeel": "#8AADCF",
+		"utherium": "#D76559",
+		"concrete": "#7C7C7C",
+		"graphite": "#2C2C2C",
+		"treatedwood": "#3B1E11",
+		"caramelcomposite": "#FFBB3B",
+		"hauntedbrass": "#A18A61"
+	}
+}

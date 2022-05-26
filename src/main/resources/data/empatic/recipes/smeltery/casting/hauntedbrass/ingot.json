@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_hauntedbrass",
-    "amount": 144
+    "amount": 90
   },
   "result": "empatic:haunted_brass",
   "cooling_time": 85,

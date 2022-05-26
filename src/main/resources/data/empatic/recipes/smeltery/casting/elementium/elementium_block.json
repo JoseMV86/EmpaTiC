@@ -15,7 +15,7 @@
   "type": "tconstruct:casting_basin",
   "fluid": {
     "name": "empatic:molten_elementium",
-    "amount": 1296
+    "amount": 810
   },
   "result": "botania:elementium_block",
   "cooling_time": 200,

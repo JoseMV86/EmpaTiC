@@ -15,7 +15,7 @@
   "type": "tconstruct:casting_basin",
   "fluid": {
     "name": "empatic:molten_utherium",
-    "amount": 1296
+    "amount": 810
   },
   "result": "undergarden:utherium_block",
   "cooling_time": 200,

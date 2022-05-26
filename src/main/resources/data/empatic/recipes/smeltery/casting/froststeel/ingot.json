@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_froststeel",
-    "amount": 144
+    "amount": 90
   },
   "result": "undergarden:froststeel_ingot",
   "cooling_time": 85,

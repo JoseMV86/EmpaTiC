@@ -1,42 +1,28 @@
 package com.empatic.main.modifiers.trait;
 
-import java.lang.Math;
-
-import net.minecraft.entity.SpawnReason;
-import net.minecraft.world.World;
-import net.minecraft.world.server.ServerWorld;
-import net.minecraft.entity.ai.attributes.Attribute;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.ai.attributes.RangedAttribute;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.ServerLevelAccessor;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
-import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
+import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import vazkii.botania.common.entity.EntityPixie;
 
 
 public class PixieModifier extends Modifier {
-	
-	public PixieModifier() {
-		super(0xff5787);
-	}
-	
 
 	@Override
-  	public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damageDealt) {
+  	public int afterEntityHit(IToolStackView tool, int level, ToolAttackContext context, float damageDealt) {
 			if (context.isFullyCharged() && damageDealt > 0) {
 				if (RANDOM.nextInt(4) == 0) {
-					PlayerEntity player = (PlayerEntity) context.getAttacker();
-					EntityPixie pixie = new EntityPixie(player.world);
-					pixie.setPosition(player.getPosX(), player.getPosY() + 2, player.getPosZ());
+					Player player = (Player) context.getAttacker();
+					EntityPixie pixie = new EntityPixie(player.level);
+					pixie.setPos(player.getX(), player.getY() + 2, player.getZ());
 					float dmg = 3f * level;
 					pixie.setProps(context.getLivingTarget(), player, 0, dmg);
-					pixie.onInitialSpawn((ServerWorld) player.world, player.world.getDifficultyForLocation(pixie.getPosition()),
-							SpawnReason.EVENT, null, null);
-					player.world.addEntity(pixie);
+					pixie.finalizeSpawn((ServerLevelAccessor) player.level, player.level.getCurrentDifficultyAt(pixie.blockPosition()),
+							MobSpawnType.EVENT, null, null);
+					player.level.addFreshEntity(pixie);
 				}
 			}
 			return 0;

@@ -2,36 +2,33 @@ package com.empatic.main.modifiers.trait;
 
 import java.util.List;
 import java.util.ArrayList;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.potion.Effects;
-import net.minecraft.util.Direction;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.core.Direction;
 import net.minecraftforge.event.entity.player.PlayerEvent.BreakSpeed;
 import slimeknights.tconstruct.library.modifiers.Modifier;
-import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
+import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 
 public class ClearingModifier extends Modifier {
-  public ClearingModifier() {
-    super(0xD7D0BD);
-  }
 
   @Override
-  public void onBreakSpeed(IModifierToolStack tool, int level, BreakSpeed event, Direction sideHit, boolean isEffective, float miningSpeedModifier) {
+  public void onBreakSpeed(IToolStackView tool, int level, BreakSpeed event, Direction sideHit, boolean isEffective, float miningSpeedModifier) {
     if (!isEffective) {
       return;
     }
-    List<EffectInstance> efectos = new ArrayList(((PlayerEntity)(event.getEntity())).getActivePotionEffects());
+    List<MobEffectInstance> efectos = new ArrayList(((Player)(event.getEntity())).getActiveEffects());
     boolean fatiga = false;
     boolean herido = false;
     boolean trampas = false;
-    for (EffectInstance efecto:efectos) {
-    if (efecto.getPotion().equals(Effects.MINING_FATIGUE)){
+    for (MobEffectInstance efecto:efectos) {
+    if (efecto.getEffect().equals(MobEffects.DIG_SLOWDOWN)){
       fatiga = true;
      }
     }
     if (!fatiga) {
-     for (EffectInstance efecto:efectos) {
-      if (!(efecto.getPotion().isBeneficial())){
+     for (MobEffectInstance efecto:efectos) {
+      if (!(efecto.getEffect().isBeneficial())){
        herido = true;
        } else {
        trampas = true;

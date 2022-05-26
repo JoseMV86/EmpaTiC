@@ -1,0 +1,32 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "undergarden",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/cloggrum"
+  },
+  "rate": "metal",
+  "result": {
+    "fluid": "empatic:molten_cloggrum",
+    "amount": 180
+  },
+  "temperature": 865,
+  "time": 200,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

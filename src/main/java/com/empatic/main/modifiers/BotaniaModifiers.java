@@ -2,14 +2,12 @@ package com.empatic.main.modifiers;
 
 import com.empatic.main.EmpaTiC;
 import com.empatic.main.modifiers.trait.*;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-import slimeknights.tconstruct.library.modifiers.Modifier;
+import slimeknights.tconstruct.library.modifiers.util.StaticModifier;
+import slimeknights.tconstruct.library.modifiers.util.ModifierDeferredRegister;
 
 public class BotaniaModifiers {
-	public static final DeferredRegister<Modifier> MODIFIERS = DeferredRegister.create(Modifier.class, EmpaTiC.MODID);
-	public static final RegistryObject<ManaAdeptModifier> MANAADEPT = MODIFIERS.register("manaadept", ManaAdeptModifier::new);
-	public static final RegistryObject<ManaInfusedModifier> MANAINFUSED = MODIFIERS.register("manainfused", ManaInfusedModifier::new);
-	public static final RegistryObject<PixieModifier> PIXIE = MODIFIERS.register("pixie", PixieModifier::new);
+	public static final ModifierDeferredRegister MODIFIERS = ModifierDeferredRegister.create(EmpaTiC.MODID);
+	public static final StaticModifier<ManaAdeptModifier> MANAADEPT = MODIFIERS.register("manaadept", ManaAdeptModifier::new);
+	public static final StaticModifier<ManaInfusedModifier> MANAINFUSED = MODIFIERS.register("manainfused", ManaInfusedModifier::new);
+	public static final StaticModifier<PixieModifier> PIXIE = MODIFIERS.register("pixie", PixieModifier::new);
 }

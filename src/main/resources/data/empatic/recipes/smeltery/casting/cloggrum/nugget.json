@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_cloggrum",
-    "amount": 16
+    "amount": 10
   },
   "result": "undergarden:cloggrum_nugget",
   "cooling_time": 30,

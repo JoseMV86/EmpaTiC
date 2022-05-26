@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "name": "empatic:manaadept",
+      "level": 1
+    },
+    {
+      "name": "empatic:pixie",
+      "level": 1
+    }
+  ]
+}

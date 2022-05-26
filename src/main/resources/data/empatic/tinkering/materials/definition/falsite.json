@@ -1,0 +1,23 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "blue_skies:ingots/falsite",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 6,
+  "textColor": "#581491",
+  "hidden": false
+}

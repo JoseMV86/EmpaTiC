@@ -1,6 +1,6 @@
 package com.empatic.main;
 
-import com.empatic.main.blocks.StartupCommon;
+import com.empatic.main.blocks.Registration;
 import com.empatic.main.init.*;
 import com.empatic.main.modifiers.BotaniaModifiers;
 import com.empatic.main.modifiers.CompatModifiers;
@@ -17,8 +17,8 @@ public class EmpaTiC
 	public static final String MODID = "empatic";
 	
     	public EmpaTiC() {
-		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-		modEventBus.register(StartupCommon.class);
+			IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+			Registration.init();
         	CompatFluids.FLUIDS.register(modEventBus);
         	CompatBlocks.BLOCKS.register(modEventBus);
         	CompatItems.ITEMS.register(modEventBus);

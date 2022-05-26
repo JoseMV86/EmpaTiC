@@ -1,0 +1,32 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "blue_skies",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "blue_skies:ores/falsite"
+  },
+  "rate": "metal",
+  "result": {
+    "fluid": "empatic:molten_falsite",
+    "amount": 180
+  },
+  "temperature": 875,
+  "time": 200,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

@@ -15,7 +15,7 @@
   "type": "tconstruct:casting_basin",
   "fluid": {
     "name": "empatic:molten_froststeel",
-    "amount": 1296
+    "amount": 810
   },
   "result": "undergarden:froststeel_block",
   "cooling_time": 200,

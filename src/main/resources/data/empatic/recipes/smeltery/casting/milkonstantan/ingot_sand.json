@@ -6,7 +6,7 @@
   "cast_consumed": true,
   "fluid": {
     "name": "empatic:molten_milkonstantan",
-    "amount": 144
+    "amount": 90
   },
   "result": "empatic:milkonstantan_ingot",
   "cooling_time": 85,

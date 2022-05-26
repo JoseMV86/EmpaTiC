@@ -2,7 +2,7 @@
   "type": "tconstruct:casting_basin",
   "fluid": {
     "name": "empatic:molten_milkonstantan",
-    "amount": 1296
+    "amount": 810
   },
   "result": "empatic:milkonstantan_block",
   "cooling_time": 200,

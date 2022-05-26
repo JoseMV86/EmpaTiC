@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="empatic" 
-version="0.1.3"
+version="0.2"
 displayName="EmpaTiC"
 authors="Jose_MV86 (coding), Hamster_Man_ (textures)"
 #credits="Slime Knights (Tinkers' Construct), RCXCrafter (Materialis), ianm1647 (Tinkers Better Compat)"
@@ -20,18 +20,18 @@ description="Tinkers addon focused on both compatibility and brand new materials
 [[dependencies.empatic]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,)"
+    versionRange="[1.18.2,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.empatic]]
     modId="tconstruct"
     mandatory=true
-    versionRange="[3.0.2.84,)"
+    versionRange="[3.5.0.17,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.empatic]]
     modId="botania"
     mandatory=false
-    versionRange="[1.16.5-420,)"
+    versionRange="[1.18.2-430-SNAPSHOT,)"
     ordering="NONE"
     side="BOTH"

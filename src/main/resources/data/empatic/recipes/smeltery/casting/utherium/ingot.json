@@ -18,7 +18,7 @@
   },
   "fluid": {
     "name": "empatic:molten_utherium",
-    "amount": 144
+    "amount": 90
   },
   "result": "undergarden:utherium_ingot",
   "cooling_time": 85,

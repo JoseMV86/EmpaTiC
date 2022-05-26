@@ -6,7 +6,7 @@
   "cast_consumed": true,
   "fluid": {
     "tag": "tconstruct:molten_debris",
-    "amount": 48
+    "amount": 30
   },
   "result": "empatic:smooth_debristone",
   "cooling_time": 80
