@@ -2,9 +2,10 @@ package com.empatic.main;
 
 import com.empatic.main.blocks.Registration;
 import com.empatic.main.init.*;
-import com.empatic.main.modifiers.BotaniaModifiers;
 import com.empatic.main.modifiers.CompatModifiers;
 
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
@@ -23,11 +24,20 @@ public class EmpaTiC
         	CompatBlocks.BLOCKS.register(modEventBus);
         	CompatItems.ITEMS.register(modEventBus);
         	CompatModifiers.MODIFIERS.register(modEventBus);
-			if(ModList.get().isLoaded("botania")){
-				BotaniaModifiers.MODIFIERS.register(modEventBus);
-			}
 			if(ModList.get().isLoaded("create")){
 				CreateItems.ITEMS.register(modEventBus);
 			}
+			modEventBus.addListener(this::addCreative);
 		}
+
+	private void addCreative(BuildCreativeModeTabContentsEvent event) {
+		if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			event.accept(CompatItems.MILKONSTANTAN_INGOT);
+			event.accept(CompatItems.MILKONSTANTAN_NUGGET);
+		}
+	}
+
+	public static String makeDescriptionId(String type, String name) {
+		return type + "." + MODID + "." + name;
+	}
 }
