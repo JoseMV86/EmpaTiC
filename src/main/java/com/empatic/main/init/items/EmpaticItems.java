@@ -1,4 +1,4 @@
-package com.empatic.main.init;
+package com.empatic.main.init.items;
 
 import com.empatic.main.EmpaTiC;
 import net.minecraft.world.item.Item;
@@ -6,7 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class CompatItems {
+public class EmpaticItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, EmpaTiC.MODID);
 
 	public static final RegistryObject<Item> MILKONSTANTAN_INGOT = ITEMS.register("milkonstantan_ingot",

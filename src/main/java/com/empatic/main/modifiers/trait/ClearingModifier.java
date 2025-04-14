@@ -2,16 +2,16 @@ package com.empatic.main.modifiers.trait;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraftforge.event.entity.player.PlayerEvent.BreakSpeed;
 import org.jetbrains.annotations.NotNull;
-import slimeknights.tconstruct.TConstruct;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.modifiers.ModifierEntry;
+import slimeknights.tconstruct.library.modifiers.ModifierHooks;
 import slimeknights.tconstruct.library.modifiers.hook.mining.BreakSpeedModifierHook;
+import slimeknights.tconstruct.library.module.ModuleHookMap;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.tools.stats.ToolType;
 
@@ -23,6 +23,11 @@ import java.util.Optional;
 public class ClearingModifier extends Modifier implements BreakSpeedModifierHook {
 
     private static final ToolType[] TYPES = { ToolType.MELEE };
+
+    @Override
+    protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
+        hookBuilder.addHook(this, ModifierHooks.BREAK_SPEED);
+    }
 
     @Override
     public int getPriority() {
@@ -50,7 +55,7 @@ public class ClearingModifier extends Modifier implements BreakSpeedModifierHook
                 }
             }
             if (herido && !trampas) {
-                return baseSpeed * 1.125f * entry.getEffectiveLevel();
+                return baseSpeed * 2f * entry.getEffectiveLevel();
             }
         }
         return baseSpeed;
