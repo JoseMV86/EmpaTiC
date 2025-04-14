@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_fluid",
-  "fluid": {
-    "tag": "empatic:molten_hauntedbrass",
-    "amount": 144
-  },
-  "temperature": 860,
-  "output": "empatic:hauntedbrass"
-}

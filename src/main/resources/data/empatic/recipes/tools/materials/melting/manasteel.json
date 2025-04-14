@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "empatic:manasteel",
-  "temperature": 725,
-  "result": {
-    "fluid": "empatic:molten_manasteel",
-    "amount": 144
-  }
-}

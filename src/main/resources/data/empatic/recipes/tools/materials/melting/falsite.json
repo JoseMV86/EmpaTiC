@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "empatic:falsite",
-  "temperature": 875,
-  "result": {
-    "fluid": "empatic:molten_falsite",
-    "amount": 144
-  }
-}

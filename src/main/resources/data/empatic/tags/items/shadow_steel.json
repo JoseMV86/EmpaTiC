@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "create:shadow_steel",
-      "required": false
-    }
-  ]
-}

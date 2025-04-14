@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "empatic:froststeel",
-  "temperature": 865,
-  "result": {
-    "fluid": "empatic:molten_froststeel",
-    "amount": 144
-  }
-}

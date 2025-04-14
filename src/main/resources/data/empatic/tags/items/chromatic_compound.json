@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "create:chromatic_compound",
-      "required": false
-    }
-  ]
-}

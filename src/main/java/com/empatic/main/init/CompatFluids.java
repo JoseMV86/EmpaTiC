@@ -1,24 +1,20 @@
 package com.empatic.main.init;
 
 import com.empatic.main.EmpaTiC;
-
-import net.minecraft.world.level.material.Fluid;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraftforge.common.SoundActions;
 import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraft.world.level.material.MapColor;
 import slimeknights.mantle.registration.deferred.FluidDeferredRegister;
 import slimeknights.mantle.registration.object.FlowingFluidObject;
+
 import static slimeknights.tconstruct.fluids.block.BurningLiquidBlock.createBurning;
 
 public class CompatFluids {
-    public static final FluidDeferredRegister FLUIDS = new FluidDeferredRegister("empatic");
+    public static final FluidDeferredRegister FLUIDS = new FluidDeferredRegister(EmpaTiC.MODID);
 
     public static final ResourceLocation MOLTEN_METAL_STILL = new ResourceLocation(EmpaTiC.MODID,
             "block/fluids/molten_metal_still");

@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "empatic:horizonite",
-  "temperature": 950,
-  "result": {
-    "fluid": "empatic:molten_horizonite",
-    "amount": 144
-  }
-}

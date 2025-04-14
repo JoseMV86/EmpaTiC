@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "empatic:cloggrum",
-  "temperature": 865,
-  "result": {
-    "fluid": "empatic:molten_cloggrum",
-    "amount": 144
-  }
-}

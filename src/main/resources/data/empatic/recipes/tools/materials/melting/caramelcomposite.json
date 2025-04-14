@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "empatic:caramelcomposite",
-  "temperature": 900,
-  "result": {
-    "fluid": "empatic:molten_caramelcomposite",
-    "amount": 144
-  }
-}

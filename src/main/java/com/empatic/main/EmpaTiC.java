@@ -1,13 +1,11 @@
 package com.empatic.main;
 
-import com.empatic.main.blocks.Registration;
 import com.empatic.main.init.*;
 import com.empatic.main.modifiers.CompatModifiers;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -19,14 +17,12 @@ public class EmpaTiC
 	
     	public EmpaTiC() {
 			IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-			Registration.init();
         	CompatFluids.FLUIDS.register(modEventBus);
         	CompatBlocks.BLOCKS.register(modEventBus);
+			CompatBlocks.ITEMS.register(modEventBus);
+			CompatCreative.CREATIVE_MODE_TABS.register(modEventBus);
         	CompatItems.ITEMS.register(modEventBus);
         	CompatModifiers.MODIFIERS.register(modEventBus);
-			if(ModList.get().isLoaded("create")){
-				CreateItems.ITEMS.register(modEventBus);
-			}
 			modEventBus.addListener(this::addCreative);
 		}
 

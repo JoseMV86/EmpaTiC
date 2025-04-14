@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "empatic:ironwood",
-  "temperature": 720,
-  "result": {
-    "fluid": "empatic:molten_ironwood",
-    "amount": 144
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_fluid",
-  "fluid": {
-    "tag": "empatic:molten_concrete",
-    "amount": 144
-  },
-  "temperature": 450,
-  "output": "empatic:concrete"
-}
