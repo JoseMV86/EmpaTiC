@@ -8,5 +8,9 @@
 
   "creativetab.empatic_items_tab": "EmpaTiC Items",
 
-  "material.empatic.milkonstantan": "Milkonstantan"
+  "material.empatic.milkonstantan": "Milkonstantan",
+
+  "modifier.empatic.clearing": "Clearing",
+  "modifier.empatic.clearing.flavor": "Calcium has been taken too far!",
+  "modifier.empatic.clearing.description": "Grants +12.5% mining speed per level when exclusively affected by negative status effects (positive ones cancel the trait)"
 }

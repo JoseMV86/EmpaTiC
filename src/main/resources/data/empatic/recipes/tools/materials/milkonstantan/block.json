@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/milkonstantan"
+  },
+  "leftover": {
+    "count": 1,
+    "tag": "forge:ingots/milkonstantan"
+  },
+  "material": "empatic:milkonstantan",
+  "needed": 1,
+  "value": 9
+}
