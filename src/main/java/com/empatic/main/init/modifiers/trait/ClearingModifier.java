@@ -1,4 +1,4 @@
-package com.empatic.main.modifiers.trait;
+package com.empatic.main.init.modifiers.trait;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

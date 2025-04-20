@@ -28,7 +28,7 @@ public class EmpaticFluids {
 
 
     //materials
-    public static final FlowingFluidObject<ForgeFlowingFluid> moltenMilkonstantan = FLUIDS.register("molten_milkonstantan").type(hot("molten_milkonstantan").temperature(875).lightLevel(10)).block(createBurning(MapColor.SAND, 10, 10, 6f)).bucket().commonTag().flowing();
+    public static final FlowingFluidObject<ForgeFlowingFluid> moltenMilkonstantan = FLUIDS.register("molten_milkonstantan").type(hot("molten_milkonstantan").temperature(1175).lightLevel(10)).block(createBurning(MapColor.SAND, 10, 10, 6f)).bucket().commonTag().flowing();
 
 
     /**

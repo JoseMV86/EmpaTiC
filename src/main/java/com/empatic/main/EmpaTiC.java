@@ -4,7 +4,7 @@ import com.empatic.main.init.blocks.EmpaticBlocks;
 import com.empatic.main.init.creative.EmpaticCreative;
 import com.empatic.main.init.fluids.EmpaticFluids;
 import com.empatic.main.init.items.EmpaticItems;
-import com.empatic.main.modifiers.CompatModifiers;
+import com.empatic.main.init.modifiers.CompatModifiers;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;

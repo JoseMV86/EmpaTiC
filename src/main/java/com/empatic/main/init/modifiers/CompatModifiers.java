@@ -1,11 +1,9 @@
-package com.empatic.main.modifiers;
+package com.empatic.main.init.modifiers;
 
 import com.empatic.main.EmpaTiC;
-import com.empatic.main.modifiers.trait.*;
+import com.empatic.main.init.modifiers.trait.ClearingModifier;
+import com.empatic.main.init.modifiers.trait.UnderbornModifier;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.modifiers.util.StaticModifier;
 import slimeknights.tconstruct.library.modifiers.util.ModifierDeferredRegister;
 

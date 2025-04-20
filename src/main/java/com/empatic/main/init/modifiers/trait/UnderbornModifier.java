@@ -1,4 +1,4 @@
-package com.empatic.main.modifiers.trait;
+package com.empatic.main.init.modifiers.trait;
 
 import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.modifiers.hook.combat.MeleeDamageModifierHook;
