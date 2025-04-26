@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material",
-  "ingredient": {
-    "tag": "forge:nuggets/milkonstantan"
-  },
-  "material": "empatic:milkonstantan",
-  "needed": 9,
-  "value": 1
-}

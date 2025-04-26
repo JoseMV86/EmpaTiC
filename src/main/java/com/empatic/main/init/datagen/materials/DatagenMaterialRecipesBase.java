@@ -1,4 +1,4 @@
-package com.empatic.main.init.datagen;
+package com.empatic.main.init.datagen.materials;
 
 import com.empatic.main.EmpaTiC;
 import net.minecraft.data.PackOutput;
@@ -9,9 +9,9 @@ import slimeknights.mantle.recipe.data.IRecipeHelper;
 
 import java.util.function.Consumer;
 
-public abstract class DatagenRecipesBase extends RecipeProvider implements IConditionBuilder, IRecipeHelper {
+public abstract class DatagenMaterialRecipesBase extends RecipeProvider implements IConditionBuilder, IRecipeHelper {
 
-    public DatagenRecipesBase(PackOutput generator) {
+    public DatagenMaterialRecipesBase(PackOutput generator) {
         super(generator);
     }
 
