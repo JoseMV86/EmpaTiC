@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "empatic:milkonstantan_ingot"
+  },
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_milkonstantan"
+  },
+  "temperature": 875,
+  "time": 63
+}

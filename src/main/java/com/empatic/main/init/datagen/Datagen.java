@@ -3,9 +3,9 @@ package com.empatic.main.init.datagen;
 import com.empatic.main.EmpaTiC;
 import com.empatic.main.init.datagen.fluids.DatagenFluidTags;
 import com.empatic.main.init.datagen.materials.DatagenMaterialDefinitions;
-import com.empatic.main.init.datagen.materials.DatagenMaterialRecipes;
 import com.empatic.main.init.datagen.materials.DatagenMaterialStats;
 import com.empatic.main.init.datagen.materials.DatagenMaterialTraits;
+import com.empatic.main.init.datagen.recipes.DatagenMaterialRecipes;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -35,6 +35,5 @@ public class Datagen {
         generator.addProvider(server, new DatagenMaterialTraits(packOutput, materials));
 
         generator.addProvider(server, new DatagenFluidTags(packOutput, lookupProvider, existingFileHelper));
-
     }
 }
