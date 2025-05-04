@@ -59,7 +59,7 @@ public class ClearingModifier extends Modifier implements BreakSpeedModifierHook
             }
             if (herido && !trampas) {
                 //12.5% boost per level
-                return baseSpeed * 1.125f * entry.getEffectiveLevel();
+                return baseSpeed * (1 + 0.125f * entry.getEffectiveLevel());
             }
         }
         return baseSpeed;
