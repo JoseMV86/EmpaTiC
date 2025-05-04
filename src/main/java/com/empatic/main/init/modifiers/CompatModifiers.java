@@ -2,6 +2,7 @@ package com.empatic.main.init.modifiers;
 
 import com.empatic.main.EmpaTiC;
 import com.empatic.main.init.modifiers.trait.ClearingModifier;
+import com.empatic.main.init.modifiers.trait.ResilientModifier;
 import com.empatic.main.init.modifiers.trait.UnderbornModifier;
 
 import slimeknights.tconstruct.library.modifiers.util.StaticModifier;
@@ -13,6 +14,7 @@ public class CompatModifiers {
 
 	//trait
 	public static final StaticModifier<ClearingModifier> CLEARING = MODIFIERS.register("clearing", ClearingModifier::new);
+	public static final StaticModifier<ResilientModifier> RESILIENT = MODIFIERS.register("resilient", ResilientModifier::new);
 	public static final StaticModifier<UnderbornModifier> UNDERBORN = MODIFIERS.register("underborn", UnderbornModifier::new);
 
 }

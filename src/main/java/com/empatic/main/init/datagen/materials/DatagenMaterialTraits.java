@@ -6,6 +6,8 @@ import net.minecraft.data.PackOutput;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialDataProvider;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialTraitDataProvider;
 
+import static slimeknights.tconstruct.library.materials.MaterialRegistry.ARMOR;
+
 public class DatagenMaterialTraits extends AbstractMaterialTraitDataProvider {
   public DatagenMaterialTraits(PackOutput packOutput, AbstractMaterialDataProvider materials) {
     super(packOutput, materials);
@@ -20,6 +22,7 @@ public class DatagenMaterialTraits extends AbstractMaterialTraitDataProvider {
   protected void addMaterialTraits() {
     // EmpaTiC
     addDefaultTraits(CompatIDs.milkonstantan, CompatModifiers.CLEARING);
+    addTraits(CompatIDs.milkonstantan, ARMOR, CompatModifiers.RESILIENT);
 
   }
 }

@@ -12,5 +12,9 @@
 
   "modifier.empatic.clearing": "Clearing",
   "modifier.empatic.clearing.flavor": "Calcium has been taken too far!",
-  "modifier.empatic.clearing.description": "Grants +12.5% mining speed per level when exclusively affected by negative status effects (positive ones cancel the trait)"
+  "modifier.empatic.clearing.description": "Grants +12.5% mining and draw speed per level when exclusively affected by negative status effects (positive ones cancel the trait)",
+
+  "modifier.empatic.resilient": "Resilient",
+  "modifier.empatic.resilient.flavor": "Focus, even in these desperate mines",
+  "modifier.empatic.resilient.description": "Grants +4% protection per level when exclusively affected by negative status effects (positive ones cancel the trait)"
 }

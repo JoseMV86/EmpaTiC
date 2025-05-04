@@ -45,8 +45,8 @@ public class ResilientModifier extends Modifier implements ProtectionModifierHoo
             }
         }
         if (herido && !trampas) {
-            //+5% boost per level
-            return 1.25f * entry.getEffectiveLevel();
+            //+4% boost per level
+            return entry.getEffectiveLevel(); //No need to multiply because 4% = 1
         }
         return 0;
     }

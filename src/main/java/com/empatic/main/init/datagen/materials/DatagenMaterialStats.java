@@ -30,8 +30,8 @@ public class DatagenMaterialStats extends AbstractMaterialStatsDataProvider {
 
     // EmpaTiC
     addMaterialStats(CompatIDs.milkonstantan,
-                     new HeadMaterialStats(675, 7.5f, DIAMOND, 1.75f),
-                     HandleMaterialStats.multipliers().durability(0.95f).miningSpeed(1.15f).build(),
+                     new HeadMaterialStats(580, 7.5f, DIAMOND, 2.25f),
+                     HandleMaterialStats.multipliers().durability(0.90f).attackSpeed(1.05f).miningSpeed(1.15f).build(),
                      StatlessMaterialStats.BINDING);
 
   }
@@ -42,14 +42,14 @@ public class DatagenMaterialStats extends AbstractMaterialStatsDataProvider {
 
     // EmpaTiC
     addMaterialStats(CompatIDs.milkonstantan,
-                     new LimbMaterialStats(675, 0.2f, -0.05f, -0.25f),
-                     new GripMaterialStats(-0.05f, 0.1f, 1.75f));
+                     new LimbMaterialStats(580, 0.2f, -0.05f, -0.15f),
+                     new GripMaterialStats(-0.10f, 0.1f, 2.25f));
 
   }
 
   private void addArmor() {
     // EmpaTiC
-    addArmorShieldStats(CompatIDs.milkonstantan, PlatingMaterialStats.builder().durabilityFactor(25).armor(1, 4, 5, 2).toughness(2).knockbackResistance(0.05f), StatlessMaterialStats.MAILLE);
+    addArmorShieldStats(CompatIDs.milkonstantan, PlatingMaterialStats.builder().durabilityFactor(21).armor(2, 5, 6, 2).toughness(1).knockbackResistance(0.1f), StatlessMaterialStats.MAILLE);
 
   }
 }
