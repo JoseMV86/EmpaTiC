@@ -9,12 +9,16 @@
   "creativetab.empatic_items_tab": "EmpaTiC Items",
 
   "material.empatic.milkonstantan": "Milkonstantan",
+  "material.empatic.milkonstantan.flavor": "Admittedly, it looks tastier than it should",
+  "material.empatic.milkonstantan.encyclopedia": "Grants +12.5% mining speed per level when exclusively affected by negative status effects (positive ones cancel the trait)",
+  "material.empatic.milkonstantan.ranged": "Grants +12.5% draw speed per level when exclusively affected by negative status effects (positive ones cancel the trait)",
+  "material.empatic.milkonstantan.armor": "Grants +4% protection per level when exclusively affected by negative status effects (positive ones cancel the trait)",
 
   "modifier.empatic.clearing": "Clearing",
-  "modifier.empatic.clearing.flavor": "Calcium has been taken too far!",
-  "modifier.empatic.clearing.description": "Grants +12.5% mining and draw speed per level when exclusively affected by negative status effects (positive ones cancel the trait)",
+  "modifier.empatic.clearing.flavor": "Keep going!",
+  "modifier.empatic.clearing.description": "Grants extra mining and draw speed when exclusively affected by negative status effects",
 
   "modifier.empatic.resilient": "Resilient",
   "modifier.empatic.resilient.flavor": "Focus, even in these desperate mines",
-  "modifier.empatic.resilient.description": "Grants +4% protection per level when exclusively affected by negative status effects (positive ones cancel the trait)"
+  "modifier.empatic.resilient.description": "Grants extra protection and draw speed when exclusively affected by negative status effects"
 }
